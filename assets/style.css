@@ -1,0 +1,120 @@
+* {
+  direction: rtl;
+  font-family: yekan;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+body {
+  font-size: 1.5rem;
+  max-width: 80vw;
+  margin: 5vw auto;
+  line-height: 1.2;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("Florence.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("Florence.jpg");
+  color: rgba(255, 255, 255, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+summary {
+  line-height: 2;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+summary.subone {
+  font-size: 2rem;
+  font-weight: bold;
+  color: lightblue;
+}
+
+summary.subtwo {
+  font-size: 1.6rem;
+  font-weight: light;
+  color: lightgreen;
+}
+
+p {
+  text-align: right;
+}
+
+li {
+  margin-top: 30px;
+  list-style: decimal outside;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  font-family: Vazir;
+}
+
+@font-face {
+  font-family: yekan;
+  font-style: normal;
+  font-weight: bold;
+  src: url("font/iranyekanwebbold.eot");
+  src: url("font/iranyekanwebbold.eot?#iefix") format("embedded-opentype"), url("font/iranyekanwebbold.woff2") format("woff2"), url("font/iranyekanwebbold.woff") format("woff"), url("font/iranyekanwebbold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/iranyekanwebregular.eot");
+  src: url("font/iranyekanwebregular.eot?#iefix") format("embedded-opentype"), url("font/iranyekanwebregular.woff2") format("woff2"), url("font/iranyekanwebregular.woff") format("woff"), url("font/iranyekanwebregular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url("font/iranyekanweblight.eot");
+  src: url("font/iranyekanweblight.eot?#iefix") format("embedded-opentype"), url("font/iranyekanweblight.woff2") format("woff2"), url("font/iranyekanweblight.woff") format("woff"), url("font/iranyekanweblight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: 300;
+  src: url("font/Vazir.eot");
+  src: url("font/Vazir.eot?#iefix") format("embedded-opentype"), url("font/Vazir.woff2") format("woff2"), url("font/Vazir.woff") format("woff"), url("font/Vazir.ttf") format("truetype");
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-image: url("Florence.jpg");
+    background-position: top left;
+    color: black;
+    font-size: 15px;
+  }
+  h1, summary {
+    font-size: 30px;
+  }
+  li, .li {
+    margin-top: 10px;
+    padding: 10px;
+    background: unset;
+    border-radius: unset;
+    max-width: 50%;
+  }
+  hr {
+    max-width: 50%;
+    margin-left: 50%;
+  }
+  summary.subone {
+    color: black;
+  }
+  summary.subtwo {
+    color: darkred;
+  }
+}
+/*# sourceMappingURL=style.css.map */
